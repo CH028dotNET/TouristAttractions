@@ -170,6 +170,10 @@
     <Compile Include="Migrations\201502192025243_InitialCreate.Designer.cs">
       <DependentUpon>201502192025243_InitialCreate.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201502192106496_AddRating.cs" />
+    <Compile Include="Migrations\201502192106496_AddRating.Designer.cs">
+      <DependentUpon>201502192106496_AddRating.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Models.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -297,6 +301,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201502192025243_InitialCreate.resx">
       <DependentUpon>201502192025243_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201502192106496_AddRating.resx">
+      <DependentUpon>201502192106496_AddRating.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
